@@ -9,7 +9,13 @@
   <form id="weatherForm">
     <label for="city">Enter City:</label>
     <input type="text" id="city" name="city">
-    <button type="submit">Get Weather</button>
+    <button id="getWeatherButton" type="button">Get Weather</button>
+    <hr>
+    <label for="Latitude">Enter Latitude:</label>
+    <input type="text" id="lat" name="lat">
+    <label for="Longitude">Enter Longitude:</label>
+    <input type="text" id="lon" name="lon">
+    <button id="getWeatherByLatLonButton" type="button">Get Weather by Latitude/Longitude</button>
   </form>
 
   <div id="weatherInfo"></div>
